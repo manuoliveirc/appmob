@@ -6,38 +6,18 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
-    box1: {
-        width: 270,
-        height: 410,
+    box: {
+        width: 350,
+        height: 70,
         backgroundColor: '#b0e0e6',
         borderRadius: 15,
+        marginBottom: 20,
     },
     text: {
-        color: '#000',
+        color: '#fff',
         fontSize: 24,
         padding: 10,
         margin: 8,
-    },
-    email: {
-        marginTop: 20,
-        margin: 8,
-        fontSize: 20,
-    },
-    senha: {
-        marginTop: 20,
-        margin: 8,
-        fontSize: 20,
-    },
-    input: {
-        backgroundColor: '#fff',
-        height: 40,
-        borderRadius: 30,
-    },
-    img: {
-        height: 50,
-        width: 40,
-        marginTop: 20,
-        marginLeft: 10,
     },
     button: {
         flexDirection: 'row',
@@ -47,6 +27,5 @@ export const styles = StyleSheet.create({
     buttonSpace: {
         paddingHorizontal: 15,
     },
-    
 
 })
