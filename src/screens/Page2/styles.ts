@@ -27,5 +27,11 @@ export const styles = StyleSheet.create({
     buttonSpace: {
         paddingHorizontal: 15,
     },
+    img: {
+        height: 50,
+        width: 40,
+        marginTop: 20,
+        marginLeft: 10,
+    },
 
 })
